@@ -13,7 +13,7 @@ namespace R5T.F0110.T000.RunSpecific
         [ContextTypeMarker]
         public interface IRunSpecificContext : IContextTypeMarker
         {
-            public Timestamp Start { get; }
+            public ITimestamp Start { get; }
         }
     }
 
@@ -23,7 +23,7 @@ namespace R5T.F0110.T000.RunSpecific
         [ContextTypeMarker]
         public interface IRunSpecificContext : IContextTypeMarker
         {
-            public Timestamp Start { get; }
+            public ITimestamp Start { get; }
             public RunSpecificDirectoryPath DirectoryPath { get; }
         }
     }
